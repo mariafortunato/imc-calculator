@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 202, 255);
+    font: normal 16px arial;
+    color: rgb(0, 0, 0);
+}
+
+#inicio{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(136, 86, 182);
+    margin-top: 10%;
+}
+#title{
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, rgb(123, 51, 190), rgba(202, 146, 255, 0.651)) ;
+    margin: 0;
+    padding: 4%;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px rgba(97, 0, 189, 0.555);
+}
+#corpo{
+    margin-top: 3%;
+    padding: 3%;
+    margin: 4%;
+    
+}
+input[type=number]{
+    width: 18%
+}
+input[type=button]{
+    background-color:rgba(152, 116, 185, 0.493);
+    border-radius: 6px;
+    border: 2px rgb(136, 86, 182);
+    padding: 1.5%;
+    margin-top: 5%;
+    width: 25%;
+    transition: .4s;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color:rgba(123, 8, 230, 0.493);
+}
+#res{
+    margin-top: 2%;
+    padding: 3%;
+}
+p{
+    margin-top: 8%;
+}
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    margin-top: 2%;
+}
+@media (max-width: 1024px){
+    #inicio{
+        width: 40%;
+    }
+    #title{
+        font-size: 25px;
+    }
+    #corpo{
+        margin: 5%;
+        margin-top: 3%;
+        padding: 3%;
+        
+    }
+    input[type=number]{
+        width: 23%
+    }
+    input[type=button]{
+        border-radius: 6px;
+        padding: 1.5%;
+        width: 28%;
+        margin-top: 4%;
+    }
+    p{
+        margin-top: 8%;
+    }
+    footer{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-style: italic;
+        margin-top: 3%;
+    
+    }
+}
+@media (max-width: 650px){ 
+    #inicio{
+        width: 50%;
+    }
+    #title{
+        font-size: 23px;
+    }
+    input[type=number]{
+        width: 23%
+    }
+    input[type=button]{
+        border-radius: 6px;
+        padding: 1.5%;
+        width: 28%;
+        margin-top: 4%;
+    }
+    p{
+        margin-top: 5%;
+    }
+    footer{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-style: italic;
+        margin-top: 3%;
+    
+    }
+}
