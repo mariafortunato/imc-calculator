@@ -17,6 +17,7 @@ function calcular(){
         } else if(imc <= 24.9){
             res.innerHTML = `Seu IMC é: <strong>${imc}</strong>.<br>Você está no seu peso normal.`
             res.style.background = 'lightblue'
+            res.style.color = 'black'
         }else if(imc <= 29.9){
             res.innerHTML = `Seu IMC é: <strong>${imc}</strong>.<br>Você está com sobrepeso.`
             res.style.background = 'rgba(243, 243, 17, 0.918)'
