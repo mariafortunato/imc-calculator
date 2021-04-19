@@ -16,7 +16,7 @@ body{
 body #inicio{
     background-color: rgba(255, 255, 255, 0.137);
     border-radius: 10px;
-    width: 380px;
+    width: 300px;
     margin: auto;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.075);
     margin-top: 10%;
@@ -37,25 +37,29 @@ body #inicio #corpo{
     
 }
 input[type=number]{
-    width: 100px;
+    width: 70px;
     border-radius: 15px;
     border: 1px solid white;
-    padding: 3px;
     outline: none;
+    padding: 6px;
 }
-body #inicio #buttonCalcular{
+body #inicio #botaoCalcular{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+body #inicio #botaoCalcular input{
     background-color:#aeb5f286;
     border-radius: 6px;
     border: none;
     padding: 5px;
-    margin-top: 25px;
+    margin-top: 25px auto;
     width: 80px;
     transition: .4s;
     cursor: pointer;
-    outline: none;
-    
+    outline: none;    
 }
-input[type=button]:hover{
+body #inicio #botaoCalcular input:hover{
     background-color:transparent;
     color: #05149e;
 }
@@ -84,7 +88,7 @@ footer p{
 }
 @media (max-width: 1024px){
     body #inicio{
-        width: 40%;
+        width: 280px;
     }
     body #inicio #title{
         font-size: 25px;
@@ -96,7 +100,7 @@ footer p{
         
     }
     input[type=number]{
-        width: 23%
+        width: 70px;
     }
     input[type=button]{
         border-radius: 6px;
@@ -112,13 +116,13 @@ footer p{
 }
 @media (max-width: 650px){ 
     body #inicio{
-        width: 50%;
+        width: 250px;
     }
     body #inicio #title{
         font-size: 23px;
     }
     input[type=number]{
-        width: 23%
+        width: 65px;
     }
     input[type=button]{
         border-radius: 6px;
