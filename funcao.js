@@ -12,8 +12,8 @@ function calcular(){
         res.innerHTML = ''
         if(imc < 18.5){
             res.innerHTML = `Seu IMC é: <strong>${imc}</strong>.<br> Você está abaixo do peso.`
-            res.style.background = 'red'
-            res.style.color = 'white'
+            res.style.background = '#e92d2d86'
+            res.style.color = 'black'
         } else if(imc <= 24.9){
             res.innerHTML = `Seu IMC é: <strong>${imc}</strong>.<br>Você está no seu peso normal.`
             res.style.background = 'lightblue'
@@ -32,8 +32,8 @@ function calcular(){
             res.style.color ='white'
         }else{
             res.innerHTML = `Seu IMC é: <strong>${imc}</strong>.<br>Você está com obesidade grau 3.`
-            res.style.background = 'red'
-            res.style.color = 'white'
+            res.style.background = '#e92d2d86'
+            res.style.color = 'black'
         }
     }
 }
