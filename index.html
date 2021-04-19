@@ -10,18 +10,22 @@
     <div id="inicio">      
             <h1 id="title"> Calculadora de IMC </h1>
             <div id="corpo">
-                <p>
-                   Altura: <input type="number" name="" id="altura" placeholder="1.65">
-                </p>
-                <p>
-                    Peso: <input type="number" name="" id="peso" placeholder="67.45">
-                </p>
+                <div id="inputUm">
+                    <p>
+                       Altura: <input type="number" name="" id="altura" placeholder="1.65">
+                    </p>
+                </div>
+                <div id="inputDois">
+                    <p>
+                        Peso: <input type="number" name="" id="peso" placeholder="67.45">
+                    </p>
+                </div>
                 <input type="button" value="Calcular" onclick="calcular()" id="buttonCalcular">
             </div>
             <div id="res"></div>
     </div>
     <footer> 
-         &copy; Maria Alice 
+        <p>Desenvolvido por Maria Fortunato</p>
     </footer>
     <script src="funcao.js"></script>
 </body>
