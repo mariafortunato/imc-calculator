@@ -37,3 +37,12 @@ function calcular(){
         }
     }
 }
+function limpar(){
+    var altura = document.getElementById('altura')
+    var peso = document.getElementById('peso')
+    var res = document.getElementById('res')
+
+    altura.value = ''
+    peso.value = ''
+    res.value = ''
+}

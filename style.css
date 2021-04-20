@@ -28,7 +28,7 @@ body #inicio #title{
     padding: 10px;
     border-radius: 6px 6px 0 0;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 body #inicio #corpo{
     margin-top: 3%;
@@ -43,12 +43,12 @@ input[type=number]{
     outline: none;
     padding: 6px;
 }
-body #inicio #botaoCalcular{
+body #inicio #botoes{
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: space-evenly;
+    padding: 20px 0;
 }
-body #inicio #botaoCalcular input{
+body #inicio #botoes input{
     background-color:#aeb5f286;
     border-radius: 6px;
     border: none;
@@ -59,17 +59,18 @@ body #inicio #botaoCalcular input{
     cursor: pointer;
     outline: none;    
 }
-body #inicio #botaoCalcular input:hover{
+body #inicio #botoes input:hover{
     background-color:transparent;
     color: #05149e;
 }
-body #inicio #inputUm{
+body #inicio #inputAltura{
     margin-bottom: 15px;
 }
 body #res{
     margin-top: 2%;
     padding: 3%;
     border-radius: 10px;
+    text-align: center;
 }
 footer{
     text-align: center;
@@ -102,12 +103,6 @@ footer p{
     input[type=number]{
         width: 70px;
     }
-    input[type=button]{
-        border-radius: 6px;
-        padding: 1.5%;
-        width: 28%;
-        margin-top: 4%;
-    }
     footer{
         color: rgb(0, 0, 0);
         text-align: center;
@@ -123,12 +118,6 @@ footer p{
     }
     input[type=number]{
         width: 65px;
-    }
-    input[type=button]{
-        border-radius: 6px;
-        padding: 1.5%;
-        width: 28%;
-        margin-top: 4%;
     }
     footer{
         color: rgb(0, 0, 0);
