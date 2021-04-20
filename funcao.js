@@ -44,5 +44,6 @@ function limpar(){
 
     altura.value = ''
     peso.value = ''
-    res.value = ''
+    res.innerHTML = ''
+    res.style = ''
 }
